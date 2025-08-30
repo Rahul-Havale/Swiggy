@@ -9,6 +9,7 @@ import lombok.Data;
 public class Payment {
 
     @Id
+    //hi
     public int paymentId;
     public int amount;
     public String paymentMode;
