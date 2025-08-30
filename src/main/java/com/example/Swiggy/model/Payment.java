@@ -9,6 +9,7 @@ import lombok.Data;
 public class Payment {
 
     @Id
+    //hi this the conflict
     public int paymentId;
     public int amount;
     public String paymentMode;
